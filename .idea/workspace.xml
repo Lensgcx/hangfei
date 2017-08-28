@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5009f0b7-ba4c-4250-bb7f-a5fe740eb255" name="默认" comment="" />
+    <list default="true" id="5009f0b7-ba4c-4250-bb7f-a5fe740eb255" name="默认" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activity.php" afterPath="$PROJECT_DIR$/activity.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,6 +12,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="activity.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/activity.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <marker date="1503887899572" expanded="true" signature="1330:1361" ph="SELECT rank_... ${$ecs-&gt;table('user_rank')}" />
+                <marker date="1503887899572" expanded="true" signature="1552:1649" ph="SELECT * FRO... ${$ecs-&gt;table('favourable_activity')}" />
+                <marker date="1503887899572" expanded="true" signature="2411:2515" ph="SELECT cat_i... ${$ecs-&gt;table('category')}" />
+                <marker date="1503887899572" expanded="true" signature="2744:2851" ph="SELECT brand... ${$ecs-&gt;table('brand')}" />
+                <marker date="1503887899572" expanded="true" signature="3045:3152" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+                <marker date="1503887899572" expanded="true" signature="3744:3832" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/activity.php" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -145,17 +178,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1503887204665</updated>
-      <workItem from="1503887208058" duration="228000" />
+      <workItem from="1503887208058" duration="761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228000" />
+    <option name="totallyTimeSpent" value="761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2582" height="1562" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -183,5 +217,22 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/activity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1503887899572" expanded="true" signature="1330:1361" ph="SELECT rank_... ${$ecs-&gt;table('user_rank')}" />
+            <marker date="1503887899572" expanded="true" signature="1552:1649" ph="SELECT * FRO... ${$ecs-&gt;table('favourable_activity')}" />
+            <marker date="1503887899572" expanded="true" signature="2411:2515" ph="SELECT cat_i... ${$ecs-&gt;table('category')}" />
+            <marker date="1503887899572" expanded="true" signature="2744:2851" ph="SELECT brand... ${$ecs-&gt;table('brand')}" />
+            <marker date="1503887899572" expanded="true" signature="3045:3152" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1503887899572" expanded="true" signature="3744:3832" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
