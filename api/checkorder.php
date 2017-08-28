@@ -13,6 +13,7 @@
  * $Id: checkorder.php 17217 2011-01-19 06:29:08Z liubo $
 */
 
+
 define('IN_ECS', true);
 
 require('./init.php');
