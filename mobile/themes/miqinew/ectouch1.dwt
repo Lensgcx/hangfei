@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>{$page_title} 触屏版</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<link href="{$ectouch_themes}/images/touch-icon.png" rel="apple-touch-icon-precomposed" />
+<link href="{$ectouch_themes}/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<link href="{$ectouch_themes}/ectouch.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="{$ectouch_themes}/js/TouchSlide.js"></script> 
+</head>
+<body>
+
+<!-- *关于我们 start--> 
+
+<header id="header">
+  <div class="header_l header_return"> <a class="ico_10" href="./"> 返回 </a> </div>
+  <h1> 关于我们 </h1>
+</header>
+<section class="wrap">
+  <div id="leftTabBox" class="loginBox">
+    <div class="hd"> <span>欢迎光临{$shop_name}</span>
+      <ul>
+       <!-- <li><a href="javascript:void(0)">联系我们</a></li>-->
+        <li><a href="javascript:void(0)">关于我们</a></li>
+      </ul>
+    </div>
+    <div class="blank2"></div>
+    <div class="bd" id="tabBox1-bd"><!-- 添加id，js用到 -->
+      
+        <ul>
+          <div class="list_box padd1 radius10" style="padding-top:0;padding-bottom:0; font-size:0.8rem; line-height:1.5rem; padding:0.8rem">{$article.description}</div>
+        </ul>
+    </div>
+  </div>
+</section>
+<script type="text/javascript" src="{$ectouch_themes}/js/TouchSlide.js"></script> 
+<script type="text/javascript">TouchSlide({ slideCell:"#leftTabBox",effect:"leftLoop" }); </script> 
+
+
+
+
+<!-- *地图 start--> 
+<!-- {if $action eq 'map'} -->
+<style type="text/css">
+html,body {margin:0px; padding:0px; height:100%}
+</style>
+<script type="text/javascript" src="http://api.map.baidu.com/api?type=quick&ak=1v0DK2dBBCvzXILG5P7nMsz1&v=2.0"></script>
+<div id="allmap" style="width:100%; height:100%"></div>
+
+<!--{/if}--> 
+<!--#地图 end--> 
+
+</body>
+</html>

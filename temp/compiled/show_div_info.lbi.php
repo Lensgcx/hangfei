@@ -1,0 +1,5 @@
+<?php if ($this->_var['script_name'] == 0): ?>
+<b>宝贝已成功添加到购物车！</b><p class="center_pop_p">购物车共有<?php echo $this->_var['real_goods_count']; ?>种宝贝(<?php echo $this->_var['goods_number']; ?>件) &nbsp;&nbsp;&nbsp;&nbsp;合计：<span><?php echo $this->_var['goods_amount']; ?>元</span></p>
+<?php elseif ($this->_var['script_name'] == 1): ?>
+<a class="success_close" href="javascript:void(0);" onClick="close_div(<?php echo $this->_var['goods_id']; ?>,'<?php echo $this->_var['goods_recommend']; ?>')"></a><p class="addSucess_tip">已成功添加到购物袋！</p><p class="cart_num">购物车共有<?php echo $this->_var['real_goods_count']; ?>种宝贝(<?php echo $this->_var['goods_number']; ?>件)</p><p class="cart_price">合计：<span class="cart_priceNum">￥<?php echo $this->_var['goods_amount']; ?>元</span></p><a class="cart_account" href="./flow.php">去购物袋结算</a>
+<?php endif; ?>

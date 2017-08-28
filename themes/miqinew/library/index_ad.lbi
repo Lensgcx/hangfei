@@ -1,0 +1,27 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ 
+<div id="slideBox" class="slideBox">
+  <div class="hd">
+    <ul>
+      <li class="first"> </li>
+      <li> </li>
+      <li> </li>
+    </ul>
+  </div>
+  <div class="bd">
+    <ul>
+    <!--{foreach from=$flash name=myflash item=flash}-->
+  <li><A href="{$flash.url}" target=_blank><IMG height=265 alt="" src="{$flash.src}" width=725></A> </li>
+ <!--{/foreach}-->
+      
+    </ul>
+  </div>
+  <!-- 下面是前/后按钮代码-->
+  
+  <div class="banner_btn_left" > <a class="prev" href="javascript:void(0)"></a> </div>
+  <div class="banner_btn_right"> <a class="next" href="javascript:void(0)"></a> </div>
+</div>
+
+<script type="text/javascript">
+		jQuery(".slideBox").slide({mainCell:".bd ul",effect:"left",trigger:"click"});
+		</script> 
