@@ -35,6 +35,7 @@ if (empty($_REQUEST['id']))
         $page = build_uri('snatch', array('sid'=>$id));
         ecs_header("Location: $page\n");
         exit;
+        
     }
     else
     {
