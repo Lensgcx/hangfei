@@ -25,6 +25,7 @@ if (!empty($_REQUEST['goods']) && is_array($_REQUEST['goods']) && count($_REQUES
            " WHERE $where AND comment_type = 0".
            ' GROUP BY id_value ';
     $query = $db->query($sql);
+
     $cmt = array();
     while ($row = $db->fetch_array($query))
     {
