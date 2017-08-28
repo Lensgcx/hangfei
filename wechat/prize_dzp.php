@@ -17,6 +17,7 @@ $pid  = $_GET['pid'];
 $sql = "SELECT * FROM `wxch_prize_append` WHERE `prize_id` = '$pid'";
 $prize_arr = $db->getAll($sql);
 
+
 foreach ($prize_arr as $key => $val) {
     if(empty($val['prize_value']))
     {
