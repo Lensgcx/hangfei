@@ -21,6 +21,7 @@ if (!isset($_REQUEST['cmt']) && !isset($_REQUEST['act']))
 {
     /* 只有在没有提交评论内容以及没有act的情况下才跳转 */
     ecs_header("Location: ./\n");
+
     exit;
 }
 $_REQUEST['cmt'] = isset($_REQUEST['cmt']) ? json_str_iconv($_REQUEST['cmt']) : '';
