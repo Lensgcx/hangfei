@@ -19,6 +19,7 @@ require(dirname(__FILE__) . '/includes/init.php');
 
 $act = !empty($_GET['act']) ? $_GET['act'] : 'login';
 
+
 $smarty->assign('footer', get_footer());
 /* 用户登陆 */
 if ($act == 'do_login')
