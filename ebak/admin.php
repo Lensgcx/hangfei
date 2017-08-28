@@ -5,4 +5,5 @@ $lur=islogin();
 $loginin=$lur['username'];
 $rnd=$lur['rnd'];
 require LoadAdminTemp('eadmin.php');
+
 ?>
