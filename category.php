@@ -34,6 +34,7 @@ if (isset($_REQUEST['id']))
 elseif (isset($_REQUEST['category']))
 {
     $cat_id = intval($_REQUEST['category']);
+
 }
 else
 {
