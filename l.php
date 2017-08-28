@@ -15,7 +15,7 @@ function show($varName)
 	switch($result = get_cfg_var($varName))
 	{
 		case 0:
-			return '<font color="red">×</font>';
+			return '<font color="red">×</font>'; 
 		break;
 		
 		case 1:
