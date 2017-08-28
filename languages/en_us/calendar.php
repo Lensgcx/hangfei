@@ -74,4 +74,5 @@ $_LANG['calendar_lang']['calendar_wk'] = 'W';
 $_LANG['calendar_lang']['calendar_day'] ='D';
 $_LANG['calendar_lang']['calendar_time'] = 'T';
 
+
 ?>
