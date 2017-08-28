@@ -24,6 +24,7 @@ class ecs_error
     var $_template  = '';
     var $error_no   = 0;
 
+
     /**
      * 构造函数
      *
