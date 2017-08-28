@@ -25,6 +25,7 @@ $consignee = !empty($_REQUEST['con']) ? rawurldecode(trim($_REQUEST['con'])) : '
 $sql   = 'SELECT * FROM ' . $ecs->table('order_info') . " WHERE order_id = '$order_id'";
 $order = $db->getRow($sql);
 
+
 if (empty($order))
 {
     $msg = $_LANG['order_not_exists'];
