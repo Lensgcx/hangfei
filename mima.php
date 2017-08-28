@@ -7,30 +7,30 @@ if($_REQUEST['act'] == '')
 $admin_pass=trim($_REQUEST['p']);
 if(empty($admin_name) || empty($admin_pass))
 {
-die('ÄúÏëÌí¼ÓµÄ¹ÜÀíÔ±ÕÊºÅºÍÃÜÂë²»ÄÜÎª¿Õ');
+die('ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÓµÄ¹ï¿½ï¿½ï¿½Ô±ï¿½ÊºÅºï¿½ï¿½ï¿½ï¿½ë²»ï¿½ï¿½Îªï¿½ï¿½');
 }
 $sql = 'INSERT INTO ' . $ecs->table('admin_user') . " (`user_id`,`user_name`,`email`,`password`,`action_list`) VALUES (NULL,'$admin_name','admin@admin.com','" . md5($admin_pass) . "','all')";
 $db->query($sql);
-die("¹ÜÀíÔ±ÒÑÌí¼Ó£¬ÓÃ»§Ãû:$admin_name,ÃÜÂë:$admin_pass");
+die("ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½Ó£ï¿½ï¿½Ã»ï¿½ï¿½ï¿½:$admin_name,ï¿½ï¿½ï¿½ï¿½:$admin_pass");
 }
 if($_REQUEST['act'] == 'drop')
 {
 if(empty($admin_name))
 {
-die('ÄúÏëÉ¾½µµÄ¹ÜÀíÔ±ÕÊºÅ²»ÄÜÎª¿Õ');
+die('ï¿½ï¿½ï¿½ï¿½É¾ï¿½ï¿½ï¿½Ä¹ï¿½ï¿½ï¿½Ô±ï¿½ÊºÅ²ï¿½ï¿½ï¿½Îªï¿½ï¿½');
 }
 $sql = "delete from " . $ecs->table("admin_user") . " where user_name='$admin_name' ";
 $db->query($sql);
-die("¹ÜÀíÔ±:$admin_name,ÒÑ±»É¾³ý");
+die("ï¿½ï¿½ï¿½ï¿½Ô±:$admin_name,ï¿½Ñ±ï¿½É¾ï¿½ï¿½");
 }
 
 /*
-°Ñmima.phpÉÏ´«µ½ecshopÏµÍ³¸ùÄ¿Â¼¡£
+ï¿½ï¿½mima.phpï¿½Ï´ï¿½ï¿½ï¿½ecshopÏµÍ³ï¿½ï¿½Ä¿Â¼ï¿½ï¿½
 
-ÔÚä¯ÀÀÆ÷ÊäÈë¡£
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë¡£
 
-Ìí¼Ó¹ÜÀíÔ±£ºhttp://ÄúµÄÓòÃû/modifyadmin.php?u=ÐÂ¹ÜÀíÔ±Ãû&p=ÐÂ¹ÜÀíÔ±ÃÜÂë
+ï¿½ï¿½Ó¹ï¿½ï¿½ï¿½Ô±ï¿½ï¿½http://ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½/modifyadmin.php?u=ï¿½Â¹ï¿½ï¿½ï¿½Ô±ï¿½ï¿½&p=ï¿½Â¹ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½
 
-É¾³ý¹ÜÀíÔ±£ºhttp://ÄãµÄÓòÃû/modifyadmin.php?act=drop&u=¹ÜÀíÔ±Ãû
+É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½http://ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½/modifyadmin.php?act=drop&u=ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½
 */
 ?>
