@@ -27,4 +27,5 @@ if (isset($_REQUEST['is_login']))
 }
 $img->generate_image();
 
+
 ?>
