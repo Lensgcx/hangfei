@@ -18,6 +18,7 @@ require(dirname(__FILE__) . '/includes/init.php');
 require(ROOT_PATH . 'includes/lib_license.php');
 require_once('includes/cls_json.php');
 
+
 define('RETURN_TYPE', empty($_POST['return_data']) ? 1 : ($_POST['return_data'] == 'json' ? 2 : 1));
 
 /* 接收传递参数并初步检验 */
