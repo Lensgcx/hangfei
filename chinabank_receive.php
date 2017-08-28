@@ -36,6 +36,7 @@ if (!empty($payment))
 else
 {
     die('error');
+
 }
 
 $v_oid     =trim($_POST['v_oid']);
