@@ -32,6 +32,7 @@ if (!$smarty->is_cached('catalog.dwt'))
         if ($val['is_show'] == 0)
         {
             unset($cat_list[$key]);
+
         }
     }
 
