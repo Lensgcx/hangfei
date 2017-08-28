@@ -8,6 +8,7 @@ function autoComplete(obj, hidden, url, callback)
   this.background = '#FFF';
   this.params = '';
 
+
   var textbox = obj;
   var hidden = hidden;
   var oldValue = '';
