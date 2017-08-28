@@ -26,6 +26,7 @@ require_once(ROOT_PATH . 'lang/' . $_CFG['lang'] . '/user.php');
 //-- PROCESSOR
 /* ------------------------------------------------------ */
 
+
 assign_template();
 assign_dynamic('activity');
 $position = assign_ur_here(0, $_LANG['shopping_activity']);
